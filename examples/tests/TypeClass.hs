@@ -2,6 +2,9 @@
 {-# LANGUAGE TypeOperators
            , TypeApplications
 #-}
+
+module Main where
+
 import QuickSpec
 
 -- Integers

@@ -1,4 +1,7 @@
 {-# LANGUAGE GeneralizedNewtypeDeriving, DeriveDataTypeable #-}
+
+module Main where
+
 import Prelude hiding (exp)
 import Test.QuickCheck
 import Data.Ord

@@ -1,5 +1,7 @@
 {-# LANGUAGE TypeOperators, GeneralizedNewtypeDeriving, TypeApplications #-}
 
+module Main where
+
 import QuickSpec
 import Test.QuickCheck
 import Prelude hiding (fst)

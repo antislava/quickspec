@@ -1,5 +1,7 @@
 -- Just for testing polymorphic generalisation
 
+module Main where
+
 import QuickSpec
 import Data.Monoid
 

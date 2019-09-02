@@ -1,6 +1,8 @@
 {-# LANGUAGE TypeOperators, StandaloneDeriving, DeriveDataTypeable #-}
 --module MusicQS where 
 
+module Main where
+
 import Music hiding (main)
 import Perform
 import Test.QuickCheck

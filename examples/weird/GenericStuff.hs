@@ -1,4 +1,5 @@
 {-# LANGUAGE DeriveFunctor, FlexibleInstances, TypeOperators, ScopedTypeVariables, FlexibleContexts, GADTs, DeriveDataTypeable #-}
+
 module GenericStuff where
 
 import Prelude hiding (Either(..))

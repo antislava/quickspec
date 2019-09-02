@@ -1,4 +1,7 @@
 {-# LANGUAGE GeneralizedNewtypeDeriving, DeriveDataTypeable, FlexibleInstances, TypeOperators, ScopedTypeVariables, FlexibleContexts #-}
+
+module Main where
+
 import Prelude hiding ((/))
 import qualified Prelude
 import Data.Ratio

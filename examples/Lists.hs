@@ -1,5 +1,8 @@
 -- Some usual list functions.
 {-# LANGUAGE ScopedTypeVariables, ConstraintKinds, RankNTypes, ConstraintKinds, FlexibleContexts #-}
+
+module Main where
+
 import QuickSpec
 
 main = quickSpec [

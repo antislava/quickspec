@@ -2,6 +2,9 @@
 {-# LANGUAGE DeriveDataTypeable
            , GeneralizedNewtypeDeriving
   #-}
+
+module Main where
+
 import Data.Maybe
 import Data.List hiding ((//))
 import Data.Char

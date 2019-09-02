@@ -1,5 +1,6 @@
 > {-# LANGUAGE DeriveDataTypeable, DeriveGeneric #-}
 
+> module Main where
 
 This code was automatically extracted from a .lhs file that
 uses the following convention:

@@ -1,5 +1,7 @@
 {-# LANGUAGE ScopedTypeVariables,DeriveDataTypeable #-}
 
+module Main where
+
 import Prelude hiding (null)
 import QuickSpec
 import Test.QuickCheck

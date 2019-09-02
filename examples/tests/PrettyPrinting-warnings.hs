@@ -1,5 +1,8 @@
 -- Test case for warning generation.
 {-# LANGUAGE DeriveDataTypeable, TypeOperators, StandaloneDeriving, TypeSynonymInstances, FlexibleInstances, MultiParamTypeClasses #-}
+
+module Main where
+
 import Prelude hiding ((<>))
 import Control.Monad
 import Test.QuickCheck

@@ -2,6 +2,9 @@
 -- A test for conditions.
 -- Many laws for zip only hold when the arguments have the same
 -- length.
+
+module Main where
+
 import QuickSpec
 
 eqLen :: [a] -> [b] -> Bool

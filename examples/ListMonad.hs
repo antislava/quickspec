@@ -1,4 +1,7 @@
 -- The monad laws for lists.
+
+module Main where
+
 import Control.Monad
 import QuickSpec
 

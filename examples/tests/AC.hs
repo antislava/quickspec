@@ -1,4 +1,7 @@
 -- a function which satisfies x+(y+z)=y+(x+z) but is not AC
+
+module Main where
+
 import QuickSpec
 import Test.QuickCheck
 

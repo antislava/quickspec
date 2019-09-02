@@ -1,4 +1,7 @@
 -- A simple example testing arithmetic functions.
+
+module Main where
+
 import QuickSpec
 
 main = quickSpec [

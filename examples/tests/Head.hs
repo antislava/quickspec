@@ -1,4 +1,7 @@
 -- Partial functions.
+
+module Main where
+
 import QuickSpec
 
 main = quickSpec [

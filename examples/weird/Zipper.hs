@@ -1,4 +1,7 @@
 {-# LANGUAGE DeriveDataTypeable #-}
+
+module Main where
+
 import Test.QuickCheck
 import Prelude hiding (Left, Right)
 import Control.Monad

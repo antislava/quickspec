@@ -3,7 +3,9 @@
 {-# LANGUAGE MultiParamTypeClasses, FunctionalDependencies #-}
 {-# LANGUAGE StandaloneDeriving #-}
 {-# LANGUAGE TypeOperators, PolyKinds #-}
+
 module Main where
+
 import Prelude hiding (sequence)
 import Data.Typeable
 import Test.QuickCheck

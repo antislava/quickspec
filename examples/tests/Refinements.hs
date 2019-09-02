@@ -1,3 +1,5 @@
+module Main where
+
 import QuickSpec
 import Test.QuickCheck hiding (NonZero)
 

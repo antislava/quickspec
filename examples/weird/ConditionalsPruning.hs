@@ -1,4 +1,7 @@
 {-# LANGUAGE TypeApplications #-}
+
+module Main where
+
 import Control.Monad
 import Test.QuickCheck
 import QuickSpec

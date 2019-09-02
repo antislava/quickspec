@@ -1,6 +1,8 @@
 -- A window manager example,
 -- taken from http://donsbot.wordpress.com/2007/05/01/roll-your-own-window-manager-part-1-defining-and-testing-a-model
 
+module Main where
+
 import Data.Maybe
 import Data.Map (Map)
 import Data.Typeable

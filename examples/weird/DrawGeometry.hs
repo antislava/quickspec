@@ -1,3 +1,5 @@
+module Main where
+
 import Prelude hiding (cycle, flip)
 import qualified Diagrams.Prelude as D
 import qualified Diagrams.Backend.SVG as D

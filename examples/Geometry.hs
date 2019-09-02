@@ -4,6 +4,9 @@
 --   * Observational equality
 --   * Running QuickSpec on a progressively larger set of signatures
 {-# LANGUAGE DeriveDataTypeable, TypeOperators, FlexibleInstances, GeneralizedNewtypeDeriving, MultiParamTypeClasses #-}
+
+module Main where
+
 import QuickSpec
 import Test.QuickCheck
 import qualified Data.Set as Set

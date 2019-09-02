@@ -1,5 +1,8 @@
 -- Sorting and sorted lists.
 -- Illustrates testing of conditional laws.
+
+module Main where
+
 import QuickSpec
 import Data.List
 

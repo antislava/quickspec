@@ -1,5 +1,8 @@
 -- The octonions, made using the Cayley-Dickson construction.
 {-# LANGUAGE GeneralizedNewtypeDeriving, DeriveDataTypeable, FlexibleInstances #-}
+
+module Main where
+
 import Data.Ratio
 import QuickSpec
 import Test.QuickCheck

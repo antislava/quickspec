@@ -1,5 +1,8 @@
 -- Regular expressions.
 {-# LANGUAGE GeneralizedNewtypeDeriving,DeriveDataTypeable, FlexibleInstances #-}
+
+module Main where
+
 import qualified Control.Monad.State as S
 import Control.Monad.State hiding (State, state)
 import qualified Data.Map as M

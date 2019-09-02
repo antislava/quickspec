@@ -1,6 +1,9 @@
 -- Parser combinators.
 -- Illustrates observational equality with polymorphic types.
 {-# LANGUAGE DeriveDataTypeable, TypeOperators, ScopedTypeVariables, StandaloneDeriving, TypeApplications, TypeSynonymInstances, FlexibleInstances, MultiParamTypeClasses #-}
+
+module Main where
+
 import Control.Monad
 import Test.QuickCheck
 import QuickSpec

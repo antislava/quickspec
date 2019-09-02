@@ -1,4 +1,7 @@
 {-# LANGUAGE DeriveDataTypeable, GeneralizedNewtypeDeriving #-}
+
+module Main where
+
 import QuickSpec
 import Test.QuickCheck
 import Data.Monoid

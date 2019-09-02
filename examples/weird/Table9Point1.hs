@@ -1,4 +1,7 @@
 {-# LANGUAGE DeriveDataTypeable #-}
+
+module Main where
+
 import QuickSpec
 import Test.QuickCheck
 
