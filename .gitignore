@@ -1,9 +1,12 @@
 *.sw*
 /dist
+/dist-*
 cabal.sandbox.config
 .cabal-sandbox/
 .stack-work/
 bugs/
+*.hi
+*.o
 examples/Arith
 examples/Bools
 examples/Composition
