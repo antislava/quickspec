@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 exitcode=0
 GHC=${GHC=ghc}
 cd $(dirname $0)/..

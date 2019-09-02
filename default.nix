@@ -4,6 +4,7 @@
 , root ? ./.
 , name ? "quickspec"
 , source-overrides ? {}
+, haskell-extra ? ps: [ ps.cabal-install ps.ghcid ]
 , ...
 }:
 let
@@ -26,7 +27,12 @@ haskellPackages.developPackage {
   };
 
   modifier = drv: pkgs.haskell.lib.overrideCabal drv (attrs: {
-    buildTools = with haskellPackages; (attrs.buildTools or []) ++ [cabal-install ghcid] ;
+    buildTools = (attrs.buildTools or []) ++ (haskell-extra haskellPackages) ;
+    shellHook = ''
+      echo "For development shell run"
+      echo "$ nix-shell"
+      echo "For test shell run"
+      echo "$ nix-shell --arg haskell-extra 'ps: with ps; [ cabal-install ghcid quickspec ]'"
+    '';
   });
 }
-
